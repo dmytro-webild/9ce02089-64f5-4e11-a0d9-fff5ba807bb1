@@ -29,32 +29,32 @@ export default function LandingPage() {
         {
           name: "Home",
           id: "home",
-          href: "/",
+
         },
         {
           name: "Services",
           id: "services",
-          href: "/#services",
+
         },
         {
           name: "Why Choose Us",
           id: "why-choose-us",
-          href: "/#why-choose-us",
+
         },
         {
           name: "Reviews",
           id: "reviews",
-          href: "/#reviews",
+
         },
         {
           name: "Service Area",
           id: "service-area",
-          href: "/#service-area",
+
         },
         {
           name: "About Us",
           id: "about",
-          href: "/about",
+
         },
       ]}
       brandName="All American Towing LLC"
