@@ -27,23 +27,17 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",          id: "home",
-        },
+          name: "Home",          id: "home"},
         {
-          name: "Services",          id: "services",
-        },
+          name: "Services",          id: "services"},
         {
-          name: "Why Choose Us",          id: "why-choose-us",
-        },
+          name: "Why Choose Us",          id: "why-choose-us"},
         {
-          name: "Reviews",          id: "reviews",
-        },
+          name: "Reviews",          id: "reviews"},
         {
-          name: "Service Area",          id: "service-area",
-        },
+          name: "Service Area",          id: "service-area"},
         {
-          name: "About Us",          id: "about",
-        },
+          name: "About Us",          id: "about"},
       ]}
       brandName="All American Towing LLC"
       bottomLeftText="Boston, NY"
@@ -98,22 +92,27 @@ export default function LandingPage() {
         {
           id: "emergency-towing",          label: "24/7 Service",          title: "Emergency Towing",          items: [
             "Fast dispatch when you need immediate help.",            "Available around the clock.",            "Rapid roadside response."],
+          buttons: [{ text: "Call Now", href: "tel:+17162291007" }]
         },
         {
           id: "roadside-assistance",          label: "On-Site Help",          title: "Roadside Assistance",          items: [
             "Lockouts, jump starts, tire issues, and more.",            "Fuel delivery and minor mechanical fixes.",            "Quick and reliable solutions."],
+          buttons: [{ text: "Call Now", href: "tel:+17162291007" }]
         },
         {
           id: "vehicle-recovery",          label: "Off-Road & Accident",          title: "Vehicle Recovery",          items: [
             "Stuck in mud, snow, or off-road? We’ll recover your vehicle safely.",            "Accident scene management and recovery.",            "Specialized equipment for tough jobs."],
+          buttons: [{ text: "Call Now", href: "tel:+17162291007" }]
         },
         {
           id: "light-medium-duty",          label: "All Vehicle Types",          title: "Light & Medium Duty Towing",          items: [
             "Cars, SUVs, trucks — handled professionally.",            "Motorcycles and light commercial vehicles.",            "Damage-free towing techniques."],
+          buttons: [{ text: "Call Now", href: "tel:+17162291007" }]
         },
         {
           id: "upfront-pricing",          label: "No Surprises",          title: "Upfront Pricing",          items: [
             "No hidden fees. No surprises. Honest quotes.",            "Transparent cost breakdown.",            "Fair rates for quality service."],
+          buttons: [{ text: "Call Now", href: "tel:+17162291007" }]
         },
       ]}
       title="Professional Towing & Recovery Services"
